@@ -13,3 +13,20 @@ Model nya
 
 
 [Trello](https://trello.com/invite/b/sdZXjPZv/ATTIa0c99287438f555a90326622aec5095fAB7EFF80/toko-online-note-app)
+
+
+Run Laravel:
+Masuk Folder -> backend
+```bash
+cd backend
+```
+
+```bash
+php artisan serve
+```
+
+Migrate Database
+
+```bash
+php artisan migrate:refresh --seed
+```
